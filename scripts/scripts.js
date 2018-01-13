@@ -1,22 +1,22 @@
 
 $(document).ready(function(){
 
-  $(".form-group").submit(function(event){
+  $("#form-questionaire").submit(function(event){
       event.preventDefault();
 
-      var choice1 = $("#questOne").val();
-      var choice2 = $("#questTwo").val();
-      var choice3 = $("#questThree").val();
-      var choice4 = $("#questFour").val();
-      var choice5 = $("#questFive").val();
-      var choice6 = $("#questSix").val();
-      var choice7 = $("#questSeven").val();
+      var choice1 = $("#q1").val();
+      var choice2 = $("#q2").val();
+      var choice3 = $("#q3").val();
+      var choice4 = $("#q4").val();
+      var choice5 = $("#q5").val();
+      var choice6 = $("#q6").val();
+      var choice7 = $("#q7").val();
 
-    if(choice1 == "#a1" || choice2 == "#b1" || choice3 == "#c1"){
+    if(choice1 = "#a1" || choice2 == "#b1" || choice3 == "#c1"){
       $("#java-track").show();
-    }else if(choice2 == "#a2" || choice == "#b2" || choice == "#c2"){
+    }else if(choice2 = "#a2" || choice == "#b2" || choice == "#c2"){
       $("#css-track").show();
-    }else if(choice3 == "#a3" || choice == "#b3" || choice == "#c3"){
+    }else if(choice3 = "#a3" || choice == "#b3" || choice == "#c3"){
       $("#ruby-track").show();
     }else if(choice4 == "#a1" || choice == "#b2" || choice == "#c3"){
       $("#php-track").show();

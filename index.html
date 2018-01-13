@@ -20,72 +20,80 @@
         each question, choose the response that best describes you. <strong>Note, there is no wrong
         answer.</strong></p>
 
-        <div class="form-group">
-          <p><strong>I.</strong> Which of the following best describes your personality?</p>
+        <form id="form-questionaire">
 
-          <form id="questOne">
-            <span class="choice"><input id="a1" type="radio" name="a" value="left" /> creative</span><!--a1-->
-            <span class="choice"><input id="a2" type="radio" name="a" value="right" /> analytical</span><!--a2-->
-            <span class="choice"><input id="a3" type="radio" name="a" value="both" /> a bit of both</span><!--a3-->
-          </form></br><hr></br>
+            <p><strong>I.</strong> Which of the following best describes your personality?</p>
+            <div id="q1">
+              <span class="choice"><input id="a1" type="radio" name="a" value="left" /> creative</span><!--a1-->
+              <span class="choice"><input id="a2" type="radio" name="a" value="right" /> analytical</span><!--a2-->
+              <span class="choice"><input id="a3" type="radio" name="a" value="both" /> a bit of both</span><!--a3-->
+            </div>
 
+            </br><hr>
 
-          <p><strong>II.</strong> Which of the following do you prefer most?</p>
+            <p><strong>II.</strong> Which of the following do you prefer most?</p>
+            <div id="q2">
+              <span class="choice"><input id="b1" type="radio" name="b" value="left" /> reading</span><!--b1-->
+              <span class="choice"><input id="b2" type="radio" name="b" value="right" /> writing</span><!--b2-->
+              <span class="choice"><input id="b3" type="radio" name="b" value="both" /> a bit of both</span><!--b3-->
+            </div>
 
-          <form id="questTwo">
-            <span class="choice"><input id="b1" type="radio" name="b" value="left" /> reading</span><!--b1-->
-            <span class="choice"><input id="b2" type="radio" name="b" value="right" /> writing</span><!--b2-->
-            <span class="choice"><input id="b3" type="radio" name="b" value="both" /> a bit of both</span><!--b3-->
-          </form></br><hr></br>
+            </br><hr>
 
-          <p><strong>III.</strong> Which of the following options best describes your desired work environment?</p>
-
-          <form id="questThree">
-            <span class="choice"><input id="c1" type="radio" name="c" value="left" /> a set structure, work from 9-5</span><!--c1-->
-            <span class="choice"><input id="c2" type="radio" name="c" value="right" /> work from wherever I want,
+            <p><strong>III.</strong> Which of the following options best describes your desired work environment?</p>
+            <div id="q3">
+              <span class="choice"><input id="c1" type="radio" name="c" value="left" /> a set structure, work from 9-5</span><!--c1-->
+              <span class="choice"><input id="c2" type="radio" name="c" value="right" /> work from wherever I want,
               home, office, coffee shop</span><!--c2-->
-            <span class="choice"><input id="c3" type="radio" name="c" value="both" /> structured, yet flexible</span><!--c3-->
-          </form></br><hr></br>
+              <span class="choice"><input id="c3" type="radio" name="c" value="both" /> structured, yet flexible</span><!--c3-->
+            </div>
 
-          <p><strong>IV.</strong> If you had to choose how to interact with your computer, which of the
-          following options sounds most enticing? </p>
+            </br><hr>
 
-          <form id="questFour">
-            <span class="choice"><input id="d1" type="radio" name="d"value="left" /> by typing commands, which is
-              more efficient</span><!--d2-->
-            <span class="choice"><input id="d2" type="radio" name="d"value="right" /> by using the GUI, which is slower, but more
-              more sensational</span><!--d2-->
-            <span class="choice"><input id="d3" type="radio" name="d"value="both" /> a bit of both</span><!--d3-->
-          </form></br><hr></br>
+            <p><strong>IV.</strong> If you had to choose how to interact with your computer, which of the
+              following options sounds most enticing? </p>
+            <div id="q4">
+              <span class="choice"><input id="d1" type="radio" name="d"value="left" /> by typing commands, which is
+                more efficient</span><!--d2-->
+              <span class="choice"><input id="d2" type="radio" name="d"value="right" /> by using the GUI, which is slower, but more
+                more sensational</span><!--d2-->
+              <span class="choice"><input id="d3" type="radio" name="d"value="both" /> a bit of both</span><!--d3-->
+            </div>
 
-          <p><strong>V.</strong> Which of the following job descriptions interests you most with regard to building a house?</p>
+            </br><hr>
 
-          <form id="questFive">
-            <span class="choice"><input id="e1" type="radio" name="e" value="left" /> laying the groundwork</span><!--e1-->
-            <span class="choice"><input id="e2" type="radio" name="e" value="right" /> designing how the house will look</span><!--e2-->
-            <span class="choice"><input id="e3" type="radio" name="e" value="both" /> a bit of both</span><!--e3-->
-          </form></br><hr></br>
+            <p><strong>V.</strong> Which of the following job descriptions interests you most with regard to building a house?</p>
+            <div id="q5">
+              <span class="choice"><input id="e1" type="radio" name="e" value="left" /> laying the groundwork</span><!--e1-->
+              <span class="choice"><input id="e2" type="radio" name="e" value="right" /> designing how the house will look</span><!--e2-->
+              <span class="choice"><input id="e3" type="radio" name="e" value="both" /> a bit of both</span><!--e3-->
+            </div>
 
-          <p><strong>VI.</strong> Pick one of the following options that best describes you. You like to:</p>
+            </br><hr>
 
-          <form id="questSix">
-            <span class="choice"><input id="f1" type="radio" name="f" value="left" /> work independently of others</span><!--f1-->
-            <span class="choice"><input id="f2" type="radio" name="f" value="right" /> communicate your ideas with others</span><!--f2-->
-            <span class="choice"><input id="f3" type="radio" name="f" value="both" /> work alone but also bounce ideas off other people</span><!--f3-->
-          </form></br><hr>
+            <p><strong>VI.</strong> Pick one of the following options that best describes you. You like to:</p>
+            <div id="q6">
+              <span class="choice"><input id="f1" type="radio" name="f" value="left" /> work independently of others</span><!--f1-->
+              <span class="choice"><input id="f2" type="radio" name="f" value="right" /> communicate your ideas with others</span><!--f2-->
+              <span class="choice"><input id="f3" type="radio" name="f" value="both" /> work alone but also bounce ideas off other people</span><!--f3-->
+            </div>
 
-          <p><strong>VII.</strong> In which subject(s) do you find yourself strongest?</p>
+            </br><hr>
 
-          <form id="questSeven">
-            <span class="choice"><input id="g1" type="radio" name="g" value="left" /> math & science</span><!--g1-->
-            <span class="choice"><input id="g2" type="radio" name="g" value="right" /> english & language</span><!--g2-->
-            <span class="choice"><input id="g3" type="radio" name="g" value="both" /> social studies</span><!--g3-->
-          </form></br><hr>
+            <p><strong>VII.</strong> In which subject(s) do you find yourself strongest?</p>
+            <div id="q7">
+              <span class="choice"><input id="g1" type="radio" name="g" value="left" /> math & science</span><!--g1-->
+              <span class="choice"><input id="g2" type="radio" name="g" value="right" /> english & language</span><!--g2-->
+              <span class="choice"><input id="g3" type="radio" name="g" value="both" /> social studies</span><!--g3-->
+            </div>
 
-          <button class="btn btn-success" type="submit" name="button">Submit</button>
+            </br><hr>
 
-        </div><!--end form-group-->
+            <button class="btn btn-success" type="submit" name="button">Submit</button>
+            <p>Please note, you may need to scroll down to view results. Thank you kindly!</p>
+        </form><!--end form-questionaire-->
       </div><!--end initially-showing-->
+
 
       <div class="initially-hidden" id="java-track">
         <p>Based the responses you provided, here at <a href="https://www.epicodus.com">Epicodus</a> we think you'd thrive most in our
@@ -108,10 +116,11 @@
       </div>
 
       <div class="initially-hidden" id="c#-track">
-        <p>Based the responses you provided, here at <a href="https://www.epicodus.com">Epicodus</a> we think you'd thrive most in our
+        <p>Based on the responses you provided, here at <a href="https://www.epicodus.com">Epicodus</a> we think you'd thrive most in our
         <em>C#/.Net</em> track we offer.</p>
       </div>
 
-  </div><!--end container-main-->
+      <span id="copyright"><p>&copy; 2018 Josh Rochon<p></span>
+    </div><!--end container-main-->
   </body>
 </html>
