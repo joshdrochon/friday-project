@@ -1,3 +1,37 @@
+
+$(document).ready(function(){
+
+  $(".form-group").submit(function(event){
+      event.preventDefault();
+
+      var choice1 = $("#questOne").val();
+      var choice2 = $("#questTwo").val();
+      var choice3 = $("#questThree").val();
+      var choice4 = $("#questFour").val();
+      var choice5 = $("#questFive").val();
+      var choice6 = $("#questSix").val();
+      var choice7 = $("#questSeven").val();
+
+    if(choice1 == "#a1" || choice2 == "#b1" || choice3 == "#c1"){
+      $("#java-track").show();
+    }else if(choice2 == "#a2" || choice == "#b2" || choice == "#c2"){
+      $("#css-track").show();
+    }else if(choice3 == "#a3" || choice == "#b3" || choice == "#c3"){
+      $("#ruby-track").show();
+    }else if(choice4 == "#a1" || choice == "#b2" || choice == "#c3"){
+      $("#php-track").show();
+      $("#c#-track").show();
+    }else if(choice5 == "#d1" || choice == "#e2" || choice == "#f3"){
+      $("#c#-track").show();
+    }else{
+      $("#c#-track").show();
+    }
+
+  });
+});
+
+/*
+
 $(document).ready(function(){
 
   $("form#questOne").submit(function(event){
@@ -51,33 +85,5 @@ $(document).ready(function(){
       $("#c#-track").show();
     }
 });
-//if user selects id a1, b1 c1 display java Track
-//if user selects a2 || b2 || c2 display css track
-//if suer selects a3 b3 c3 display Ruby
-//select a1 && b1 && c1 && d1 Java
-// a2 && b2 && c2 && d2 CSS
-//a3 b
 
-
-if(choice == "#a1" || choice == "#b1" || choice == "#c1"){
-  $("#java-track").show();
-}else if(choice == "#a2" || choice == "#b2" || choice == "#c2"){
-  $("#css-track").show();
-}else if(choice == "#a3" || choice == "#b3" || choice == "#c3"){
-  $("#ruby-track").show();
-}else if(choice == "#a1" || choice == "#b2" || choice == "#c3"){
-  $("#php-track").show();
-  $("#c#-track").show();
-}else if(choice == "#d1" || choice == "#e2" || choice == "#f3"){
-  $("#c#-track").show();
-}else{
-  $("#c#-track").show();
-}
-
-
-
-//var left = new Array();
-//var right = new Array();
-//var both = new Array();
-
-//leftResponses[] = leftResponses.push()
+*/
