@@ -1,6 +1,6 @@
 # _Friday_Project_
 
-#### _This is a website that features an Epicodus survey, 01/06/18_
+#### _This is a website that features an Epicodus survey, 01/12/18_
 
 #### By _**Josh Rochon**_
 
