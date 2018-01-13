@@ -1,12 +1,13 @@
 # _Friday_Project_
 
-#### _This is a website about for Carol's Cupcakes, 01/06/18_
+#### _This is a website that features an Epicodus survey, 01/06/18_
 
 #### By _**Josh Rochon**_
 
 ## Description
 
-_Here you'll find all the important information concerning Carol's Cupcakes, such as history, and images._
+_In this survey, you'll find 7 questions. The user is asked to fill out the questionaire. Based on the
+responses they provide, jQuery uses simple logic to display a track for them._
 
 ## Setup/Installation Requirements
 
@@ -14,7 +15,8 @@ _Here you'll find all the important information concerning Carol's Cupcakes, suc
 
 ## Known Bugs
 
-_This code is unfinished and may not work in all browsers. The latest versions of Google Chrome and Mozilla Firefox are recommended. You can download them at www.google.com/chrome or www.mozilla.org respectively._
+_This code is unfinished and does not fully function. The jQuery logic only outputs one of the five possible
+tracks no matter how the user responds. Work is currently in progress to solve this issue as quickly as possible _
 
 ## Support and contact details
 
@@ -22,7 +24,7 @@ _If you have any concerns email joshdrochon@gmail.com_
 
 ## Technologies Used
 
-_Atom text editor, Terminal, Git, Github, HTML5, CSS_
+_Atom text editor, Terminal, Git, Github, HTML5, CSS, JavaScript, jQuery_
 
 ### License
 
