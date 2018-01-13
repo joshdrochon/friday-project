@@ -1,0 +1,28 @@
+#title{
+  margin: 20px;
+}
+
+body{
+  background-color: lightblue
+}
+
+.container-main{
+  text-align: left;
+  margin: 0px 50px 0px 50px;
+}
+
+.container-main h1{
+  text-align: center;
+}
+
+.choice {
+  display: block;
+}
+
+form{
+  margin-left: 30px
+}
+
+.initially-hidden{
+  display: none;
+}
