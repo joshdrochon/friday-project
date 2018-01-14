@@ -9,6 +9,7 @@ body{
 .container-main{
   text-align: left;
   margin: 0px 50px 0px 50px;
+  font-size:16px;
 }
 
 .container-main h1{
@@ -22,6 +23,11 @@ body{
 
 .initially-hidden{
   display: none;
+}
+
+.bg-info{
+  background-color: lightblue;
+  border:0px;
 }
 
 button{
