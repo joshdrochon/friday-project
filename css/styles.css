@@ -26,13 +26,17 @@ body{
 }
 
 .bg-info{
+  /*additional style to bootstrap built-in bg-info class*/
   background-color: lightblue;
   border:0px;
 }
 
 button{
   display: inline-block;
-  margin-bottom:30px;
+}
+
+#submit{
+  margin-bottom: 15px
 }
 
 #copyright{
